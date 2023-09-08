@@ -593,6 +593,46 @@ button {
   margin-left: auto;
 }
 
+.subscribe-form-field-label {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--main-white);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.subscribe-form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--main-white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.subscribe-form-input::placeholder {
+  color: var(--main-white);
+  font-size: 12px;
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  min-width: 165px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background: var(--primary-brand-color);
+}
+
 /*Backdrop with Modal window*/
 
 .backdrop {
