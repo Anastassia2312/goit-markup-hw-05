@@ -776,6 +776,10 @@ button {
   fill: var(--primary-brand-color);
 }
 
+.order-form-textarea-wrapper {
+  margin-bottom: 16px;
+}
+
 .order-form-comment {
   height: 120px;
   width: 100%;
@@ -847,9 +851,9 @@ button {
 .order-form-checkbox:checked
   + .order-form-checkbox-label
   > .order-form-own-checkbox {
+  border: none;
   background-color: var(--pressed-state-color);
   fill: var(--cloud);
-  border: none;
 }
 
 .order-form-checkbox:focus
