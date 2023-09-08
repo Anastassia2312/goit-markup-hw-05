@@ -584,22 +584,21 @@ button {
   fill: var(--cloud);
 }
 
-.subscribe-form {
-  display: flex;
-  width: 100%;
-  max-width: 453px;
-  justify-content: space-between;
-
+.subscribe-form-wrapper {
   margin-left: auto;
 }
 
-.subscribe-form-field-label {
-  display: block;
-  margin-bottom: 16px;
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form-description {
   color: var(--main-white);
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .subscribe-form-input {

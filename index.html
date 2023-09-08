@@ -609,11 +609,10 @@
           </ul>
         </div>
 
-        <form class="subscribe-form" name="subscribe-form">
-          <div class="subscribe-form-input-wrapper">
-            <label for="subscribe-email" class="subscribe-form-field-label"
-              >Subscribe</label
-            >
+        <div class="subscribe-form-wrapper">
+          <p class="subscribe-form-description">Subscribe</p>
+         <form class="subscribe-form" name="subscribe-form">
+            <label class="subscribe-form-field-label">
             <input
               type="email"
               class="subscribe-form-input"
@@ -621,8 +620,9 @@
               name="subscribe-email"
               placeholder="E-mail"
             />
-          </div>
-          <button class="subscribe-btn" type="submit">
+            </label>
+          
+           <button class="subscribe-btn" type="submit">
             Subscribe<svg
               class="subscribe-btn-icon"
               width="24"
@@ -630,14 +630,16 @@
               aria-label="paper airplane icon"
             >
               <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+             </svg>
+           </button>
+          </form>
+        </div>
+       </div>
       </div>
     </footer>
 
     <!--Backdrop with Modal window-->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn">
           <svg
