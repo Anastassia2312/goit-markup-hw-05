@@ -639,9 +639,9 @@
     </footer>
 
     <!--Backdrop with Modal window-->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg
             class="close-btn-svg"
             width="8"
@@ -725,7 +725,7 @@
             >
             <textarea
               class="order-form-comment"
-              name="order-form-comment"
+              name="user_comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
@@ -735,18 +735,18 @@
             <input
               class="order-form-checkbox visually-hidden"
               type="checkbox"
-              id="user-terms"
-              name="user-terms"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
 
-            <label for="user-terms" class="order-form-checkbox-label">
+            <label for="user-privacy" class="order-form-checkbox-label">
               <span class="order-form-own-checkbox"
                 ><svg
                   class="order-form-own-checkbox-icon"
                   width="10"
-                  height="10"
+                  height="8"
                   aria-label="checkbox-icon"
                 >
                   <use href="./images/icons.svg#icon-agree"></use></svg
