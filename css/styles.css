@@ -856,11 +856,11 @@ button {
   fill: var(--cloud);
 }
 
-.order-form-checkbox:focus
+/*.order-form-checkbox:focus
   + .order-form-checkbox-label
   > .order-form-own-checkbox {
   border: 1px solid var(--primary-brand-color);
-}
+}*/
 
 .send-btn {
   display: block;
